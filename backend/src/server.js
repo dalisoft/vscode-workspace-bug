@@ -1,4 +1,6 @@
-import {getUserId} from '@shared/api/auth'
+import { getUserId } from "@shared/api/src/auth";
+
+
 
 const server = () => {
 

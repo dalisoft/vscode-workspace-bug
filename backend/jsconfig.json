@@ -5,6 +5,8 @@
   ],
   "compilerOptions": {
     "baseUrl": "src",
+    "moduleResolution": "node",
+    "module": "es6",
     "paths": {
       "@shared/api/*": [
         "node_modules/@shared/api/src/*"

@@ -5,6 +5,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "moduleResolution": "node",
+    "module": "es6",
     "paths": {
       "#auth/*": [
         "./auth/*"
