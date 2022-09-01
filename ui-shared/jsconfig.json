@@ -1,13 +1,14 @@
 {
+  "include": [
+    "."
+  ],
   "compilerOptions": {
     "baseUrl": ".",
+    "module": "es6",
     "paths": {
       "@shared/ui/components/*": [
         "./components/*"
       ],
     }
-  },
-  "include": [
-    "."
-  ]
+  }
 }
