@@ -8,7 +8,8 @@
     "src/auth"
   ],
   "exports": {
-    "./*": "./src/*"
+    "./*": "./src/*",
+    "./auth/*": "./src/auth/*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,4 +1,4 @@
-import { getUserId } from "@shared/api/src/auth";
+import { getUserId } from "@shared/api/auth";
 
 
 
