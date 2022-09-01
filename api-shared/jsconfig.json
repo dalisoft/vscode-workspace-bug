@@ -1,0 +1,14 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "moduleResolution": "node",
+    "paths": {
+      "#auth/*": [
+        "./auth/*"
+      ],
+    }
+  }
+}

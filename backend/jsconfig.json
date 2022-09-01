@@ -1,0 +1,14 @@
+{
+  "include": [
+    "src",
+    "node_modules/@shared/api"
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@shared/api/*": [
+        "node_modules/@shared/api/src/*"
+      ]
+    }
+  }
+}

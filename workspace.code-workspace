@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "path": "api-shared"
+    },
+    {
+      "path": "ui-shared"
+    },
+    {
+      "path": "backend"
+    },
+    {
+      "path": "frontend"
+    },
+  ],
+  "settings": {
+    "git.autofetchPeriod": 60,
+    "task.allowAutomaticTasks": "on",
+    "typescript.tsserver.useSyntaxServer": "always",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.tsserver.maxTsServerMemory": 5120,
+    "typescript.tsserver.log": "verbose",
+    "cSpell.enabled": false,
+    "eslint.workingDirectories": [
+      "./api-shared",
+      "./ui-shared",
+      "./backend",
+      "./frontend",
+    ],
+  }
+}
