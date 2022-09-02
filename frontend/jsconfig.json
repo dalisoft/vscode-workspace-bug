@@ -6,6 +6,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "module": "es6",
+    "moduleResolution": "classic",
     "paths": {
       "@shared/ui/*": [
         "node_modules/@shared/ui/*"

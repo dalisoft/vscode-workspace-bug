@@ -4,6 +4,7 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
+    "moduleResolution": "node16",
     "module": "es6",
     "paths": {
       "@shared/ui/components/*": [
