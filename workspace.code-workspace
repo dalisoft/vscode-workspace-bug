@@ -17,9 +17,10 @@
     "git.autofetchPeriod": 60,
     "task.allowAutomaticTasks": "on",
     "typescript.tsserver.useSyntaxServer": "always",
-    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-    "typescript.tsserver.maxTsServerMemory": 5120,
-    "typescript.tsserver.log": "verbose",
+    "typescript.tsserver.useSeparateSyntaxServer": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "typescript.tsserver.maxTsServerMemory": 3072,
+    "typescript.tsserver.log": "off",
     "cSpell.enabled": false,
     "eslint.workingDirectories": [
       "./api-shared",
@@ -27,5 +28,6 @@
       "./backend",
       "./frontend",
     ],
+    "typescript.tsdk": "frontend/node_modules/typescript/lib",
   }
 }
