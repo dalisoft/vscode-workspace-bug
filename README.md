@@ -17,12 +17,14 @@ See these comments and workarounds
 ### IntelliSense workspaces not working
 
 - <https://github.com/microsoft/vscode/issues/159071>
+- <https://github.com/microsoft/vscode/issues/160078> (see workaround in comments)
 
 ## Where it works?
 
 - WebStorm
+- VSCode (until & including v1.59.1)
 
 ## Where it does not work?
 
-- VSCode
+- VSCode (after v1.59.1)
 - Sublime Text + TypeScript package + LSP-typescript package
