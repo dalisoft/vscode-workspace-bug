@@ -5,6 +5,9 @@
   "engines": {
     "node": ">=18.12.1"
   },
+  "scripts": {
+    "prepare": "node ./scripts/prepare.mjs"
+  },
   "workspaces": [
     "api-shared",
     "ui-shared",
