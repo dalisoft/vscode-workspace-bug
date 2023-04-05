@@ -3,20 +3,12 @@
   "include": [
     "src"
   ],
+  "exclude": ["node_modules"],
   "compilerOptions": {
-    "lib": [
-      "es2020",
-    ],
     "rootDir": ".",
     "baseUrl": ".",
-    "moduleResolution": "node16",
-    "module": "es2020",
-    "target": "es2020",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "noEmit": true,
+    "composite": true,
+    "noEmit": false,
     "paths": {
       "#auth/*": [
         "./src/auth/*"

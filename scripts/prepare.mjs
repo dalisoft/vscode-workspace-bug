@@ -4,7 +4,6 @@ import path from "node:path";
 import json5 from "json5";
 
 import pkg from "../package.json" assert { type: "json" };
-import rootTSConfig from "../tsconfig.json" assert { type: "json" };
 
 const { workspaces } = pkg;
 const workspaceMap = {};

@@ -10,14 +10,6 @@
     ],
     "rootDir": ".",
     "baseUrl": ".",
-    "moduleResolution": "node16",
-    "module": "es2020",
-    "target": "es2020",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "noEmit": true,
     "paths": {
       "@shared/api/*": [
         "node_modules/@shared/api/src/*"

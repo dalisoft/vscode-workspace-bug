@@ -1,11 +1,22 @@
 {
   "include": ["api-shared", "ui-shared", "backend", "frontend"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules"
+  ],
   "compilerOptions": {
     "rootDir": ".",
     "baseUrl": ".",
     "skipLibCheck": true,
-    "moduleResolution": "node",
+    "lib": ["es2020"],
+    "moduleResolution": "node16",
+    "module": "node16",
+    "target": "es2020",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": false,
     "noEmit": true,
+    "strict": true,
+    "alwaysStrict": true,
     "paths": {
       "@shared/api/*": [
         "./api-shared/src/*"
