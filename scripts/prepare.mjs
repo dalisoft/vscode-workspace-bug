@@ -78,6 +78,8 @@ for (const workspace of workspaces) {
               }
             }
             projectConfig.exclude.push("node_modules");
+          } else {
+            projectConfig.exclude = ['node_modules']
           }
 
           projectConfigUpdated = true;
