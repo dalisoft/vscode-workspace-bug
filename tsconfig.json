@@ -1,0 +1,18 @@
+{
+  "include": ["api-shared", "ui-shared", "backend", "frontend"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "paths": {
+      "@shared/api/*": [
+        "./api-shared/src/*"
+      ],
+      "@shared/ui/*": [
+        "./ui-shared/src/*"
+      ],
+    }
+  }
+}

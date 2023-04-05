@@ -1,0 +1,22 @@
+{
+  "name": "@shared/root",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.12.1"
+  },
+  "workspaces": [
+    "api-shared",
+    "ui-shared",
+    "backend",
+    "frontend"
+  ],
+  "resolutions": {
+    "@shared/api": "file:./api-shared",
+    "@shared/ui": "file:./ui-shared"
+  },
+  "devDependencies": {
+    "json5": "^2.2.3",
+    "typescript": "^4.9.5"
+  }
+}

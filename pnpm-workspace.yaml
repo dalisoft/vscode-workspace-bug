@@ -1,0 +1,5 @@
+packages:
+  - api-shared
+  - ui-shared
+  - backend
+  - frontend
