@@ -1,4 +1,4 @@
-import { getUserId } from "@shared/api/auth/index.ts";
+import { getUserId } from "@shared/api/auth/index.js";
 
 const server = () => {
 
